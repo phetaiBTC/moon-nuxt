@@ -4,7 +4,10 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   ssr: true,
-  css: ['~/assets/css/main.css'],
+  css: [
+    '~/assets/css/main.css',
+    '~/assets/css/font.css',
+  ],
   vite: {
     plugins: [
       tailwindcss(),
@@ -12,7 +15,8 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      API_URL: process.env.API_URL
+      API_BASE_URL: process.env.API_URL
     }
-  }
+  },
+  modules:['@pinia/nuxt']
 })

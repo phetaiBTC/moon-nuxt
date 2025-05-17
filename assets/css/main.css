@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+* {
+    font-family: 'MadimiOne', 'NotoSansLao', sans-serif;
+    /* color: #F8F4E1; */
+}   

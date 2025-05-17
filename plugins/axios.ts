@@ -1,3 +1,4 @@
+// plugins/axios.ts
 import axios from 'axios'
 
 export default defineNuxtPlugin(nuxtApp => {
@@ -6,9 +7,10 @@ export default defineNuxtPlugin(nuxtApp => {
   const instance = axios.create({
     baseURL: String(config.public.API_BASE_URL)
   })
+
   instance.interceptors.request.use(
     (config) => {
-      const token = localStorage.getItem('token')
+      const token = useCookie('token').value
       if (token) {
         config.headers.Authorization = `Bearer ${token}`
       }

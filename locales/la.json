@@ -1,0 +1,14 @@
+{
+    "home":"ຫນ້າຫລັກ",
+    "hotel_profile":"ໂປຣຟາຍໂຮງແຮມ",
+    "rooms":{
+        "title":"ຫ້ອງ",
+        "manager":"ຈັດການຫ້ອງ",
+        "update_status":"ອັບເດບສະຖານນະຫ້ອງ"
+    },
+    "booking":{
+        "title":"ຈອງຫ້ອງແຖວ",
+        "manager":"ຈັດການ ການຈອງ",
+        "update_status":"ອັບເດບສະຖານ"
+    }
+}

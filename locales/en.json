@@ -1,0 +1,14 @@
+{
+    "home":"Home",
+    "hotel_profile":"Hotel Profile",
+    "rooms":{
+        "title":"Rooms",
+        "manager":"Room Manager",
+        "update_status":"Update Status"
+    },
+    "booking":{
+        "title":"Booking",
+        "manager":"Booking Manager",
+        "update_status":"Update Status"
+    }
+}
